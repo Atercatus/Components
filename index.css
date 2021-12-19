@@ -1,0 +1,50 @@
+* {
+  font-size: 12px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel {
+  width: 44rem;
+  height: 20rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel__rail {
+  height: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.carousel__hobby-horse {
+  width: 10rem;
+  height: 10rem;
+  background: coral;
+  margin: 0 0.5rem;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controller-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
