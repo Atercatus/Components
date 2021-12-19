@@ -111,7 +111,6 @@ class Carousel {
       (basePosition + prevPos) * -OFFSET
     }px,0px)`;
 
-    // TODO(cattus-cur): 기존에 움직이던 애니메이션이 사라짐 ㅠ_ㅠ
     requestAnimationFrame(() => {
       this.rail.style.transition = TRANSITION;
       this.rail.style.transform = `translate(${
